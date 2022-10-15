@@ -117,6 +117,7 @@ void handle_Info() {
   s += "\n  Uptime: " + String(millis()) + " ms";
   s += "\n\nNetwork Info";
   s += "\n  WiFi Network: " + String(ssid);
+  s += "\n  WiFi RSSI: " + String(WiFi.RSSI());
   s += "\n  Hostname: " + String(HostName);
   s += "\n  MAC Address: " + WiFi.macAddress();
   s += "\n  IP address: " + WiFi.localIP().toString();
