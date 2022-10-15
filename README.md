@@ -2,13 +2,13 @@
 
 ESP01 (ESP8266) and ESP-01S v1.0 relay board setup to control a large 7.5HP agricultural well pump.
 
-The relay board has been modified to use GPIO3, instead of GPIO0 (default), to prevent the relay from
-being trigger on startup:
+The relay board has been modified to use GPIO3, instead of GPIO0 (default), to prevent the relay from being trigger on startup:
 
 https://github.com/IOT-MCU/ESP-01S-Relay-v4.0/issues/1#issuecomment-574480241
 
 Futhermore, the relay board has been modified by adding a jumper between Vcc (pin 8) and CH_EN (pin 4).
-DO NOT REMOVE R2, you'll need it for the GPIO3 mod mentioned above.
+
+NOTE: DO NOT REMOVE R2, you'll need it for the GPIO3 mod mentioned above.
 
 https://www.youtube.com/watch?v=OCWvhxCiyw4
 
